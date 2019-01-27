@@ -6,5 +6,8 @@ public class test {
                             .age(29)
                             .build();
         System.out.println(u.getFirstName());
+
+        //how to get Singleton object initialize
+        Singleton s = Singleton.getInstance();
     }
 }
