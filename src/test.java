@@ -1,9 +1,14 @@
-public class test {
+public class test{
     public static void main(String[] args){
-        foo f = new foo();
-        f.setName("alex");
-        System.out.println(f.getName());
-        foo.boo b = new foo.boo();
-        b.printName();
+//        for(int i = 0; i < 10; i++){
+//            System.out.println(i);
+//            System.out.println();
+//        }
+        int i = 0;
+        while(i < 10){
+            System.out.println(++i);
+        }
+
+
     }
 }
